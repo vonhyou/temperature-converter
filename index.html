@@ -14,7 +14,7 @@
 
 <body class="from-blue-500 to-green-500 bg-gradient-to-r">
   <section class="mt-20 max-w-md mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-    <form action="" name="convertor" onclick="return calc_degree()" method="get">
+    <form action="" name="convertor" method="get">
 
       <label class="block text-gray-700 text-sm font-bold mb-2" for="degree">
         Degree
@@ -39,7 +39,7 @@
           tracking-wider font-medium text-xs
           hover:-translate-y-0.5 transform transition
           active:translate-y-0.5 active:translate-x-0.5
-          focus:outline-none focus:ring focus:ring-offset-2" type="button" value="Convert">
+          focus:outline-none focus:ring focus:ring-offset-2" onclick="return calc_degree()" type="button" value="Convert">
         </div>
       </div>
     </form>
